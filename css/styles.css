@@ -1,6 +1,7 @@
 /* font-family: "Raleway", sans-serif;
 font-family: "Roboto", sans-serif; */
 
+<!--Header-->
 body {
 font-family: "Roboto", sans-serif;
 color: #434455;
@@ -41,12 +42,14 @@ color:  #2E2F42;
   font-style: normal;  
 }
 
-.nav-link:hover,
-.navlink:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.nav-link:hover {
     color: #404BBF;
 }
+
+.contacts-link:hover {
+    color: #404BBF;
+}
+
 
 .contacts-link {
 font-weight: 400;
@@ -55,3 +58,32 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455
 }
+
+/* Hero */
+
+.hero {
+    background: #2E2F42;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
+}
+
